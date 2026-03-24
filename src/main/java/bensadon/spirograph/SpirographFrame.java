@@ -39,7 +39,7 @@ public class SpirographFrame extends JFrame {
             }
         });
 
-        JPanel westPanel = new JPanel(new GridBagLayout());
+        final JPanel westPanel = new JPanel(new GridBagLayout());
         GridBagConstraints constraints;
 
         constraints = new GridBagConstraints();
