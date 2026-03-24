@@ -9,7 +9,7 @@ is drawn by calculating points in a loop and connecting them with lines. The pro
 organized using MVC to separate the logic, data, and UI.
 ### Screenshots
 
-![Spirograph](screenshots/Screenshot%202026-03-24%20at%201.46.41 PM.png)
+![Spirograph](screenshots/Spirograph-screenshot.png)
 #### Links
 
 - [Mockito](https://site.mockito.org/)

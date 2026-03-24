@@ -17,14 +17,15 @@ public class SpirographView extends JComponent {
 
         g.translate(getWidth() / 2, getHeight() / 2);
 
+        g.setColor(new Color(30, 144, 255));
+
+        setBackground(Color.BLACK);
+        setOpaque(true);
+
         for (int i = 1; i < model.getNumSteps(); i++) {
             final double time1 = (i - 1) * model.getAnglePerStep();
             final double time2 = i * model.getAnglePerStep();
 
-            g.setColor(new Color(30, 144, 255));
-
-            setBackground(Color.BLACK);
-            setOpaque(true);
 
             double radiusDifference = model.getLargeRadius() - model.getSmallRadius();
 
